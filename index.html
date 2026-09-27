@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Task Manager</title>
+</head>
+<body>
+    <header>
+        <section class="header">
+            <h1 class="header__title">
+                Task Manager
+            </h1>
+            <p class="header__text">
+                <span class="header__text--all">
+
+                </span>
+                 · 
+                <span class="header__text--success">
+
+                </span>
+            </p>
+        </section>
+    </header>
+    <main class="container">
+        <section class="tasks">
+
+        </section>
+        <form class="task-form">
+            <input 
+                type="text"
+                class="task-form__input"
+                placeholder="Task title"
+            >
+            <textarea 
+                class="task-form__text"
+                placeholder="Task description"
+            ></textarea>
+            <button type="submit" class="task-form__button">
+                Add task
+            </button>
+        </form>
+    </main>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
